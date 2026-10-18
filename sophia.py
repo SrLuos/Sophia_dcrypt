@@ -218,7 +218,3 @@ def encriptar_archivo(RutaPlantilla, rutaArchivo):
     final.save("DatosCifrados.png")
 
     print("Archivo Cifrado correctamente")
-
-encriptar_archivo(r"/home/luos/Documentos/programas/cosas/otras cosas/benson.png", r"/home/luos/Documentos/programas/Python/cosas/archivo.json")
-
-desencriptar(r"/home/luos/Documentos/programas/DatosCifrados.png", r"/home/luos/Documentos/programas/output")
